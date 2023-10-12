@@ -27,8 +27,6 @@ namespace SearchManagement.API.Controllers
         {
             try
             {
-                //test
-                //test
                 var response = await _searchService.Search(filter);
                 if (!response.Any())
                 {
